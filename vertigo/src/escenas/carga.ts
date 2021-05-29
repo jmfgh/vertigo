@@ -50,7 +50,7 @@ export default class Carga extends Phaser.Scene{
             this.barraCarga.setAlpha(0);
             this.barraProgreso.setAlpha(0);
 
-            //Botoón de Inicio
+            //Botón de Inicio
             const inicioTxt: Phaser.GameObjects.BitmapText = this.add.bitmapText( 0, 0, Constantes.FUENTES.BITMAP, Constantes.ESCENAS.INICIO, 50).setInteractive();
             inicioTxt.setX((this.width/2) - (inicioTxt.width/2));
             inicioTxt.setY((this.height/2) - (inicioTxt.height/2));
